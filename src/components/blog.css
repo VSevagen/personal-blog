@@ -35,7 +35,8 @@
 
 .custom {
     width: 30%;
-    margin-left: 230px;
+    margin-left: 35%;
+    margin-right: 35%;
 }
 
 .custom-text {
@@ -43,5 +44,7 @@
     opacity: 1;
     margin-left: 36%;
     margin-right: 36%;
+    line-height: 15px;
     
 }
+
