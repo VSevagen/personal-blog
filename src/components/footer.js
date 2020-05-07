@@ -15,7 +15,7 @@ export default function Footer() {
                     <a href="https://www.linkedin.com/in/veerasamy-sevagen/" target="_blank" rel="noopener noreferrer"><img src="https://cdn.icon-icons.com/icons2/1/PNG/256/sociallinkedin_member_30.png" alt=""></img></a>
                 </div>
 
-                <div class="copyright">Copyright © 2020 - Veerasamy S</div>
+                <div class="copyright text-center">Copyright © 2020 - Veerasamy S</div>
             </div>
         </div>
     );

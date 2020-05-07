@@ -112,9 +112,14 @@ li h4 {
 img {
     width: 30px;
     height: auto;
-    margin-left: 13%;
-    margin-right: 13%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 20px;
+}
+
+.link-holder {
+    margin-left: 35%;
+    margin-right:35%;
 }
 
 .copyright {
