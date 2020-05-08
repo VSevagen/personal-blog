@@ -31,6 +31,8 @@
 .blog_img {
     width:70%;
     height: auto;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .custom {
@@ -46,5 +48,11 @@
     margin-right: 36%;
     line-height: 15px;
     
+}
+
+#unique {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 35%;
 }
 

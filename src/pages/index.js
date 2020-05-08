@@ -12,6 +12,13 @@ export default function Home()  {
             <div class="post-list">
                 <ul>
                     <li>
+                        <a id="blog-title" href="/blogs/gnomeasia">GNOMEAsia 2019</a>
+                        <h4>
+                        First of all, I would like to thank the GNOME Foundation and the travel committee for providing me the sponsorship to attend this event.
+                        </h4>
+                        <p>Oct 15, 2019</p>
+                    </li>
+                    <li>
                         <a id="blog-title" href="/blogs/mysqlErr">ERROR 2002(HY000) Can't connect to MySQL server</a>
                         <h4>
                         Mediawiki’s installation is quite simple if the correct steps are followed and applied but it may happen that during the installation a package was not correctly configured or worse , broken. Rest assured , you do not need to uninstall ubuntu , at least not now.
