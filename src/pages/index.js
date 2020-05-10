@@ -14,9 +14,16 @@ export default function Home()  {
                     <li>
                         <a id="blog-title" href="/blogs/gnomeasia">GNOMEAsia 2019</a>
                         <h4>
-                        First of all, I would like to thank the GNOME Foundation and the travel committee for providing me the sponsorship to attend this event.
+                        First of all, I would like to thank the GNOME Foundation and the travel committee for providing me the sponsorship to attend this event. So I departed on the night of 10th of October from Trivandrum International Airport to Changi Airport and finally Juanda International Airport in Indonesia. 
                         </h4>
                         <p>Oct 15, 2019</p>
+                    </li>
+                    <li>
+                        <a id="blog-title" href="/blogs/visit">School Visit</a>
+                        <h4>
+                        The School Visit program is part of the Amrita Values Programme here at Amritapuri. The latter introduces the students to the concept of public social awareness and how to transmit the messages of social consciousness to the general public. In our case, we were asked to present a topic of our choice to a group of high schoolers.
+                        </h4>
+                        <p>Oct 6, 2019</p>
                     </li>
                     <li>
                         <a id="blog-title" href="/blogs/mysqlErr">ERROR 2002(HY000) Can't connect to MySQL server</a>

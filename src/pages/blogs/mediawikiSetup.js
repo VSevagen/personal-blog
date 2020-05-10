@@ -71,7 +71,7 @@ In order not to get “Permission denied”, you should run <strong>ssh -p 29418
                             <p class="blog-content">
                                 <strong>Step 5</strong><br></br>
                                 Download MediaWiki through the following command.<br></br>
-                                <strong>wget https://releases.wikimedia.org/mediawiki/1.31/mediawiki-1.31.1.tar.gz</strong><br></br>
+                            <br></br>
                             </p>
 
                             <p class="blog-content">
