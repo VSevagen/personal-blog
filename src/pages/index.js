@@ -26,6 +26,13 @@ export default function Home()  {
                         <p>Oct 6, 2019</p>
                     </li>
                     <li>
+                        <a id="blog-title" href="/blogs/incubate">IncubateIND Hackathon, Kochi</a>
+                        <h4>
+                        This is my second hackathon and I did not expect it to be so professional. The mentors were really helpful, the Jury were frank, they did not hold back their words which is appreciated since we needed to hear it :). Apart from that, the working place was spacious and welcoming so we definitely did not feel awkward.
+                        </h4>
+                        <p>July 15, 2019</p>
+                    </li>
+                    <li>
                         <a id="blog-title" href="/blogs/mysqlErr">ERROR 2002(HY000) Can't connect to MySQL server</a>
                         <h4>
                         Mediawiki’s installation is quite simple if the correct steps are followed and applied but it may happen that during the installation a package was not correctly configured or worse , broken. Rest assured , you do not need to uninstall ubuntu , at least not now.
