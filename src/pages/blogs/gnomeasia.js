@@ -51,6 +51,16 @@ The next morning, I took a plane back to India, waving goodbye to Indonesia 😉
                             </div>
                         </li>
                     </ul>
+                    
+                    <script src="https://utteranc.es/client.js"
+                            repo="VSevagen/Blog_Comments"
+                            issue-term="url"
+                            label="Utterances"
+                            theme="github-dark"
+                            crossorigin="anonymous"
+                            async>
+                    </script>
+
                 </div>
               <Footer />  
         </div>
