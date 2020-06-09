@@ -7,6 +7,7 @@ export default function Header() {
                 <div class="site-title">
                     <a id="title" href="/">My Blog</a>
                     <div class="site-options">
+                        <a id="about" href="/project">Projects</a>
                         <a id="about" href="/about">About</a>
                     </div>
                 </div>

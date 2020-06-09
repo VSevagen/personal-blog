@@ -129,3 +129,14 @@ img {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+.project-link {
+    margin-left: 0;
+    text-decoration: none;
+}
+
+.project-link:hover {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
