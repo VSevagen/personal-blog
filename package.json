@@ -20,10 +20,14 @@
     "boostrap": "^2.0.0",
     "bootstrap": "^4.4.1",
     "gatsby": "^2.21.0",
+    "gatsby-plugin-gitalk": "^1.2.1",
     "gatsby-plugin-google-analytics": "^2.3.1",
+    "gitalk": "^1.6.2",
+    "gitment": "0.0.3",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-fontawesome": "^1.7.1"
+    "react-fontawesome": "^1.7.1",
+    "react-helmet": "^6.1.0"
   },
   "devDependencies": {
     "prettier": "2.0.5"

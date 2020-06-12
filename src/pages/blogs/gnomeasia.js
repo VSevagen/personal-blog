@@ -9,6 +9,25 @@ import Director from "./images/director.jpg"
 import FishCurry from "./images/fishcurry.jpg"
 import Boarding from "./images/boarding.jpg"
 import Sponsor from "./images/sponsor.png"
+import DarkMode from "./images/dark-mode.png"
+import LightMode from "./images/light-mode.png"
+
+// document.addEventListener('DOMContentLoaded', function() {
+// let data = sessionStorage.getItem('mode');
+// if(data == 'true'){
+//     //document.body.style.backgroundColor = 'black';
+//     let content = document.querySelectorAll(".blog-content");
+//     var title = document.querySelector(".blog-title");
+//     var date = document.querySelector(".blog-date");
+//     var img = document.querySelector("#mode-style");
+//     if(content.style != undefined){
+//         content.style.color = "white";
+//         title.style.color = "white";
+//         date.style.color = "white";
+//         img.src = LightMode;
+//     }
+// }
+//  }, false);
 
 export default function GnomeAsia(){
     return(
@@ -51,16 +70,6 @@ The next morning, I took a plane back to India, waving goodbye to Indonesia 😉
                             </div>
                         </li>
                     </ul>
-                    
-                    <script src="https://utteranc.es/client.js"
-                            repo="VSevagen/Blog_Comments"
-                            issue-term="url"
-                            label="Utterances"
-                            theme="github-dark"
-                            crossorigin="anonymous"
-                            async>
-                    </script>
-
                 </div>
               <Footer />  
         </div>

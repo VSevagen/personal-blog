@@ -8,6 +8,10 @@
     padding-left: 20px;
 }
 
+body {
+    background-color: white;
+}
+
 .site-title {
     font-family: 'Roboto Mono', monospace;
     font-size: 22px;
@@ -109,7 +113,7 @@ li h4 {
     margin-right: auto;
 }
 
-img {
+.links {
     width: 30px;
     height: auto;
     margin-left: 5%;
@@ -139,4 +143,8 @@ img {
     text-decoration: none;
     color: white;
     background-color: black;
+}
+
+#mode-style {
+    width: 30px;
 }

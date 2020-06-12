@@ -29,5 +29,6 @@ export default function GnomeAsia(){
                 </ul>
 
             </div>
+            <Footer/>
         </div>   
     );}
