@@ -2,13 +2,17 @@ import React from "react"
 import 'bootstrap/dist/css/bootstrap.css';
 import {Helmet} from "react-helmet";
 import DarkMode from "../pages/blogs/images/dark-mode.png"
-import LightMode from "../pages/blogs/images/light-mode.png"
+import LightMode from "../pages/blogs/images/light-mode.png";
 
-if(typeof window !== undefined) {
-    if(localStorage !== undefined) {
-        localStorage.setItem('mode', 'false');
-    }
+if (typeof window !== 'undefined') {
+    sessionStorage.setItem('mode', 'false');
 }
+
+// if(typeof window !== undefined) {
+//     if(localStorage !== undefined) {
+//         localStorage.setItem('mode', 'false');
+//     }
+// }
 
 function handleClick(e) {
     // e.preventDefault();
@@ -38,7 +42,7 @@ function handleClick(e) {
     // }
     // rawFile.send(null);
     console.log("The link is clicked");
-    let data = localStorage.getItem("mode");
+    let data = sessionStorage.getItem("mode");
     var a = document.querySelectorAll("#blog-title");
     var h4 = document.querySelectorAll("h4");
     var p = document.querySelectorAll("p");
@@ -60,7 +64,7 @@ function handleClick(e) {
             blogDate.style.color = "white";
         }
         img.src = LightMode;
-        localStorage.setItem('mode', 'true');
+        sessionStorage.setItem('mode', 'true');
     }
     
     if(data == "true") {
@@ -77,7 +81,7 @@ function handleClick(e) {
             blogDate.style.color = "#333";
         }
         img.src = DarkMode;
-        localStorage.setItem('mode', 'false');
+        sessionStorage.setItem('mode', 'false');
         
     }
 }
