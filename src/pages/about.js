@@ -18,7 +18,6 @@ export default function About()  {
                     <span>Things I've meddled with :</span><br></br><br></br>
                     <span>- Web Development (MEAN Stack)</span><br></br>
                     <span>- The GNOME Project</span><br></br>
-                    <span>- Deep Learning (<strong>Recently started</strong>)</span>              
                 </p>
                 <p class="text-center">-----------------------------------------------------------------------------</p>
                 <p class="center-tag">Contact</p>
