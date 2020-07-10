@@ -5,25 +5,6 @@ import Footer from "../components/footer.js"
 import Header from "../components/header.js"
 import DarkMode from "./blogs/images/dark-mode.png"
 
-// window.onload=function() {
-//  let data = sessionStorage.getItem('mode');
-//  if(data == 'true'){
-//      document.body.style.backgroundColor = "black";
-//      var a = document.querySelectorAll("#blog-title");
-//      var h4 = document.querySelectorAll("h4");
-//      var p = document.querySelectorAll("p");
-//      var img = document.querySelector("#mode-style")
-
-
-//      for(var i =0,j=0,k=0;i<a.length,j<p.length,k<h4.length;i++,j++,k++){
-//         a[i].style.color = "white";
-//         h4[k].style.color = "white";
-//         p[j].style.color = "white";
-//     }
-//     //img.src = DarkMode;
-//  }
-// }
-
 export default function Home()  {
     return (
         <div class="blog">
