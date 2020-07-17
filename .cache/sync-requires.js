@@ -5,7 +5,6 @@ const preferDefault = m => m && m.default || m
 
 
 exports.components = {
-  "component---cache-dev-404-page-js": hot(preferDefault(require("/home/sevagen/Desktop/personal-blog/.cache/dev-404-page.js"))),
   "component---src-pages-about-js": hot(preferDefault(require("/home/sevagen/Desktop/personal-blog/src/pages/about.js"))),
   "component---src-pages-blogs-fosstalk-js": hot(preferDefault(require("/home/sevagen/Desktop/personal-blog/src/pages/blogs/fosstalk.js"))),
   "component---src-pages-blogs-gnomeasia-js": hot(preferDefault(require("/home/sevagen/Desktop/personal-blog/src/pages/blogs/gnomeasia.js"))),
