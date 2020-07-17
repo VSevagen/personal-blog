@@ -1,4 +1,5 @@
 import React from "react"
+import { DiscussionEmbed } from "disqus-react"
 import Header from "../../components/header"
 import Footer from "../../components/footer"
 import Gnomeasia from "./images/gnomeasia.jpg"
@@ -30,6 +31,10 @@ import Sponsor from "./images/sponsor.png"
 //  }, false);
 
 export default function GnomeAsia(){
+    const disqusConfig = {
+        shortname: 'sevagenblog',
+        // config: { identifier: slug, title },
+    }
     return(
         <div>
               <Header />
@@ -70,6 +75,7 @@ The next morning, I took a plane back to India, waving goodbye to Indonesia 😉
                             </div>
                         </li>
                     </ul>
+                    <DiscussionEmbed {...disqusConfig} />
                 </div>
               <Footer />  
         </div>
