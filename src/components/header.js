@@ -1,6 +1,5 @@
 import React from "react"
 import 'bootstrap/dist/css/bootstrap.css';
-import {Helmet} from "react-helmet";
 import DarkMode from "../pages/blogs/images/dark-mode.png"
 import LightMode from "../pages/blogs/images/light-mode.png";
 
@@ -41,7 +40,6 @@ function handleClick(e) {
     //     }
     // }
     // rawFile.send(null);
-    console.log("The link is clicked");
     let data = sessionStorage.getItem("mode");
     var a = document.querySelectorAll("#blog-title");
     var h4 = document.querySelectorAll("h4");
@@ -51,12 +49,12 @@ function handleClick(e) {
     var blogTitle = document.querySelector(".blog-title");
     var blogDate = document.querySelector(".blog-date");
     
-    if(data == "false"){
+    if(data === "false"){
         document.body.style.backgroundColor = 'black';
         for(var i =0,j=0,k=0;i<a.length,j<p.length,k<h4.length;i++,j++,k++){
             a[i].style.color = "white";
-            h4[k].style.color = "white";
-            p[j].style.color = "white";
+            h4[i].style.color = "white";
+            p[i].style.color = "white";
         }
         if(blogContent != undefined) {
             blogContent.style.color = "white";
@@ -67,13 +65,12 @@ function handleClick(e) {
         sessionStorage.setItem('mode', 'true');
     }
     
-    if(data == "true") {
-        console.log("This is whhite mode");
+    if(data === "true") {
         document.body.style.backgroundColor = "white";
-        for(var i =0,j=0,k=0;i<a.length,j<p.length,k<h4.length;i++,j++,k++){
+        for(i =0,j=0,k=0;i<a.length,j<p.length,k<h4.length;i++,j++,k++){
             a[i].style.color = "#333";
-            h4[k].style.color = "#333";
-            p[j].style.color = "#333";
+            h4[i].style.color = "#333";
+            p[i].style.color = "#333";
         }
         if(blogContent != undefined) {
             blogContent.style.color = "#333";
@@ -93,9 +90,9 @@ export default function Header() {
                 <div class="site-title">
                     <a id="title" href="/">My Blog</a>
                     <div class="site-options">
-                        <a>
-                        <img id="mode-style" src={DarkMode} alt="" onClick={handleClick}></img>
-                        </a>
+                        <i>
+                        <img id="mode-style" src={DarkMode} alt="" onClick={handleClick} onKeyDown={handleClick}></img>
+                        </i>
                         <a id="about" href="/project">Projects</a>
                         <a id="about" href="/about">About</a>
                     </div>

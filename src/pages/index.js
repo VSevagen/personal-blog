@@ -3,7 +3,6 @@ import 'bootstrap/dist/css/bootstrap.css';
 import "../components/main.css"
 import Footer from "../components/footer.js"
 import Header from "../components/header.js"
-import DarkMode from "./blogs/images/dark-mode.png"
 
 export default function Home()  {
     return (

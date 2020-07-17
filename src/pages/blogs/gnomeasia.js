@@ -9,8 +9,8 @@ import Director from "./images/director.jpg"
 import FishCurry from "./images/fishcurry.jpg"
 import Boarding from "./images/boarding.jpg"
 import Sponsor from "./images/sponsor.png"
-import DarkMode from "./images/dark-mode.png"
-import LightMode from "./images/light-mode.png"
+// import DarkMode from "./images/dark-mode.png"
+// import LightMode from "./images/light-mode.png"
 
 // document.addEventListener('DOMContentLoaded', function() {
 // let data = sessionStorage.getItem('mode');
