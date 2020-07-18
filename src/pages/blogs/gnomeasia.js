@@ -1,6 +1,7 @@
 import React from "react"
 import Header from "../../components/header"
 import Footer from "../../components/footer"
+import Comments from "../../components/comments"
 import Gnomeasia from "./images/gnomeasia.jpg"
 import WorkShop from "./images/workshop.jpg"
 import Dance from "./images/dance.jpg"
@@ -70,6 +71,7 @@ The next morning, I took a plane back to India, waving goodbye to Indonesia 😉
                             </div>
                         </li>
                     </ul>
+                    <Comments />
                 </div>
               <Footer />  
         </div>

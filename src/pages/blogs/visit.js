@@ -1,6 +1,7 @@
 import React from "react"
 import Header from "../../components/header"
 import Footer from "../../components/footer"
+import Comments from "../../components/comments"
 import School from "./images/school.jpg"
 import GroupFoto from "./images/groupfoto.jpg"
 import GroupFoto2 from "./images/groupfoto2.jpg"
@@ -35,6 +36,7 @@ The most captivating moment of the visit, however, was Gopika’s dance. Her top
                         </div>
                     </li>
                 </ul>
+                <Comments />
             </div>
             <Footer />
         </div>

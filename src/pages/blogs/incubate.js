@@ -1,6 +1,7 @@
 import React from "react"
 import Header from "../../components/header"
 import Footer from "../../components/footer"
+import Comments from "../../components/comments"
 import IND from "./images/incubate.jpg"
 import Eval from "./images/evaluation.jpg"
 import Final from "./images/final.jpg"
@@ -68,6 +69,7 @@ Also thanks a lot IncubateIND ,InQ and the volunteers for having helped us durin
                             </div>
                         </li>
                     </ul>
+                    <Comments />
                 </div>
             <Footer />
         </div>

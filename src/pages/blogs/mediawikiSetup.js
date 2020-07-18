@@ -1,6 +1,7 @@
 import React from "react"
 import Header from "../../components/header.js"
 import Footer from "../../components/footer.js"
+import Comments from "../../components/comments"
 import "../../components/blog.css"
 import mediawiki from "./images/mediawiki.jpg"
 import mediawiki1 from "./images/mediawiki1.png"
@@ -134,6 +135,7 @@ Now try localhost/core/ again. It should work.
                         </div>
                     </li>
                 </ul>
+                <Comments />
             </div>
             <Footer />
 

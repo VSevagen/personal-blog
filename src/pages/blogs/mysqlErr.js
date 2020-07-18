@@ -1,6 +1,7 @@
 import React from "react"
 import Header from "../../components/header"
 import Footer from "../../components/footer"
+import Comments from "../../components/comments"
 import Err1 from "./images/mysqlErr.png"
 import Err2 from "./images/mysqlErr2.png"
 
@@ -50,6 +51,7 @@ The solutions above are uniquely what I tried . It has worked out for me but I c
                         </div>
                     </li>
                 </ul>
+                <Comments />
             </div>
             <Footer />
         </div>

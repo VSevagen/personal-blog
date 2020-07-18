@@ -1,6 +1,7 @@
 import React from "react"
 import Header from "../../components/header"
 import Footer from "../../components/footer"
+import Comments from "../../components/comments"
 import fosstalk from "./images/fosstalk.png"
 import Me from "./images/me.jpg"
 
@@ -45,6 +46,7 @@ So do not hold back, do whatever you think might be beneficial for you before it
                         </div>
                     </li>
                 </ul>
+                <Comments />
             </div>
             <Footer />
         </div>

@@ -1,6 +1,7 @@
 import React from "react"
 import Header from "../../components/header"
 import Footer from "../../components/footer"
+import Comments from "../../components/comments"
 
 export default function Python() {
     return(
@@ -61,6 +62,7 @@ In other words, Python’s simple and clear syntax allows you to focus on creati
 
                     </li>
                 </ul>
+                <Comments />
             </div>
             <Footer />
         </div>
