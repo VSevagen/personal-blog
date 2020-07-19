@@ -7,39 +7,7 @@ if (typeof window !== 'undefined') {
     sessionStorage.setItem('mode', 'false');
 }
 
-// if(typeof window !== undefined) {
-//     if(localStorage !== undefined) {
-//         localStorage.setItem('mode', 'false');
-//     }
-// }
-
 function handleClick(e) {
-    // e.preventDefault();
-    //  fetch('data.txt',{mode: 'no-cors'})
-    //  .then(response => {
-    //      if (!response.ok) {
-    //          throw new Error('Network response was not ok');
-    //      }
-    //      return response.text();
-    //  })
-    //  .then(function(data){
-    //      console.log(data);
-    //  })
-    // var rawFile = new XMLHttpRequest();
-    // var file = "file:///home/sevagen/Desktop/personal-blog/src/components/data.txt"
-    // rawFile.open("GET", file, false);
-    // rawFile.onreadystatechange = function ()
-    // {
-    //     if(rawFile.readyState === 4)
-    //     {
-    //         if(rawFile.status === 200 || rawFile.status == 0)
-    //         {
-    //             var allText = rawFile.responseText;
-    //             console.log(allText);
-    //         }
-    //     }
-    // }
-    // rawFile.send(null);
     let data = sessionStorage.getItem("mode");
     var a = document.querySelectorAll("#blog-title");
     var h4 = document.querySelectorAll("h4");
